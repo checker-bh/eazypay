@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        app:title="Display Settings"
+        app:iconSpaceReserved="false">
+
+        <SwitchPreferenceCompat
+            app:key="high_quality"
+            app:title="High Quality Images"
+            app:summary="Download and display higher quality images (uses more data)"
+            app:defaultValue="false"
+            app:iconSpaceReserved="false" />
+
+        <ListPreference
+            app:key="grid_size"
+            app:title="Grid Size"
+            app:summary="Number of columns in the image grid"
+            app:entries="@array/grid_size_entries"
+            app:entryValues="@array/grid_size_values"
+            app:defaultValue="2"
+            app:iconSpaceReserved="false" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        app:title="Cache Settings"
+        app:iconSpaceReserved="false">
+
+        <SwitchPreferenceCompat
+            app:key="enable_cache"
+            app:title="Enable Image Caching"
+            app:summary="Cache images for offline viewing"
+            app:defaultValue="true"
+            app:iconSpaceReserved="false" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
