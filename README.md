@@ -4,25 +4,25 @@ Welcome to **EazyPay**! 🚀 This is a modern **Android payment application** bu
 
 ---
 
-## ✨ Features
-✅ **User Authentication** (Login & Registration using Room DB)  
-✅ **Encrypted Password Storage** (Android Security Crypto)  
-✅ **REST API Integration** (Retrofit + OkHttp for network calls)  
-✅ **Image Fetching from Pexels API**  
-✅ **Material UI Design**  
-✅ **MVVM Architecture**  
-✅ **Dark Mode Support**  
+## 🚀 Features
+- 🔐 **User Authentication**: Register & Login securely using **Room Database**.
+- 🔄 **Data Persistence**: Users are stored locally for smooth authentication.
+- 📸 **Image Fetching**: Integrated **Pexels API** to fetch stunning images.
+- 🔄 **WorkManager Integration**: Efficient background tasks.
+- 🎨 **Material UI**: Modern and clean interface.
+
+## 🛠️ Technologies Used
+- **Java**
+- **Room Database**
+- **Retrofit for API calls**
+- **Glide for Image Loading**
 
 ---
 
-## 📦 Tech Stack
-- **Language**: Java ☕
-- **Database**: Room 🏠
-- **Network**: Retrofit + OkHttp 🌐
-- **UI**: Material Components 🎨
-- **Image Loading**: Glide 🖼️
-- **Security**: Android Security Crypto 🔒
+## 🌱 **Future Enhancements**
+- 🛒 Implement a search bar for better navigation.
+- 🔑 Forgot Password feature was worked on but not fully implemented due to time constraints.
+- ⚡ Features developed but not used in the final implementation will be reviewed for future versions.
 
----
-
-
+  ---
+###  Developed by Ahmed Hamad Shamlooh.
